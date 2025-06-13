@@ -2,21 +2,22 @@
 
 In this assginment I have launched an EC2 instance. 
 
-# First I have created the key pair 
+# 1. created the key pair 
 
 <img width="960" alt="1 key pair" src="https://github.com/user-attachments/assets/3b161c03-4bb1-4102-b4e2-df2366dadaa2" />
 <img width="960" alt="2 key pair" src="https://github.com/user-attachments/assets/5fdd78ce-234f-4ad8-83c8-093625c2373a" />
 
-# second I have created a vpc to run EC2 instance inside it.
+# 2. created a vpc to run EC2 instance inside it.
 <img width="960" alt="3 vpc" src="https://github.com/user-attachments/assets/fc133f5f-13b6-49a9-88cf-f38f1657eebf" />
 
-# Then i have created the public subnet to communicate with internet.
+# 3. created the public subnet to communicate with internet.
+
 <img width="960" alt="4 subnet" src="https://github.com/user-attachments/assets/5ac42095-959d-42ee-9674-b1607c26bc00" />
 
-# Then I have created internet gateway to work as a door for allowing in and out of public internet
+I have created internet gateway to work as a door for allowing in and out of public internet
 <img width="960" alt="6 internet" src="https://github.com/user-attachments/assets/c7f65a32-4f74-474c-b226-b5a602c1e1ec" />
 
-# After creating vpc, I got this route table which was already connected to the vpc, so I just edit the routes to connect it to the internet gateway and, also associate my public subnet
+# 4. After creating vpc, I got this route table which was already connected to the vpc, so I just edit the routes to connect it to the internet gateway and, also associate my public subnet
 <img width="960" alt="7 routetable" src="https://github.com/user-attachments/assets/244313dc-2446-4bc2-86f3-d5faf0f1c74a" />
 <img width="960" alt="8 route table" src="https://github.com/user-attachments/assets/83ca0737-544d-46d8-bdc9-2af1981344e8" />
 
@@ -33,7 +34,7 @@ In this assginment I have launched an EC2 instance.
 
 <img width="960" alt="13" src="https://github.com/user-attachments/assets/eac69f8b-d4b6-402b-9ed4-fac6ac52114b" />
 
-# here are the cleanup processes
+# Cleanup processes
 <img width="960" alt="14" src="https://github.com/user-attachments/assets/02554dcb-35a9-4bc6-b420-8e8ed5170adc" />
 <img width="960" alt="15" src="https://github.com/user-attachments/assets/67d85e32-bb74-4e4f-889f-922bc587a969" />
 
