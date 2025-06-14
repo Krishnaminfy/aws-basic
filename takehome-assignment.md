@@ -64,7 +64,18 @@ I repeated the same steps, I did in the class assignment, step by step I deleted
 
 # bonus challenge
 
-Nat gateway
+Nat gateway(my learnings)
+
+we use nat gateway, so that our databases in private subnet can access outbound internet, if we want to download directly from the internet without being directly accessible from the internet.
+
+It also translates the private ip to public ip address(elastic ips)
+
+we can use elastic ip with NAT Gateway to give it a public identity on the internet.
+
+we need to update the route table for the private subnet to target nat gateway and destination "0.0.0.0/0", So that any traffic going to the internet, it will go through the NAT Gateway.
+
+After doing all these steps, we can ping google or 8.8.8.8 from the db-server.
+
 
 
 
