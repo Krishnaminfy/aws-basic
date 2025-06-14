@@ -59,9 +59,12 @@ Now I am trying to ping the database which is running in private subnet, with se
 This is happening because we have not set any inbound rule like icmp, only we allowed mysql/aurora, we can access the data but pinging will not happen without ICMP. That is why we are getting 100% packets loss
 <img width="951" alt="18" src="https://github.com/user-attachments/assets/80281634-82a6-4684-9e65-8f7d8f8e34ea" />
 
+# 19. cleanup process
+I repeated the same steps, I did in the class assignment, step by step I deleted the instances, then detach and delete the internet gateway, then subnets, and finally vpc. same screen shots are present in the class-assignment.md file. so I didnt put them again, in this project only deleting the private subnet is extra step.
 
+# bonus challenge
 
-
+Nat gateway
 
 
 
