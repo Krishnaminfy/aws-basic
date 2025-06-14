@@ -14,27 +14,28 @@ In this assginment I have launched an EC2 instance.
 
 <img width="960" alt="4 subnet" src="https://github.com/user-attachments/assets/5ac42095-959d-42ee-9674-b1607c26bc00" />
 
+# 4. Internet gateway
 I have created internet gateway to work as a door for allowing in and out of public internet
 <img width="960" alt="6 internet" src="https://github.com/user-attachments/assets/c7f65a32-4f74-474c-b226-b5a602c1e1ec" />
 
-# 4. After creating vpc, I got this route table which was already connected to the vpc, so I just edit the routes to connect it to the internet gateway and, also associate my public subnet
+# 5. After creating vpc, I got this route table which was already connected to the vpc, so I just edit the routes to connect it to the internet gateway and, also associate my public subnet
 <img width="960" alt="7 routetable" src="https://github.com/user-attachments/assets/244313dc-2446-4bc2-86f3-d5faf0f1c74a" />
 <img width="960" alt="8 route table" src="https://github.com/user-attachments/assets/83ca0737-544d-46d8-bdc9-2af1981344e8" />
 
-# Then I created the security group for the ec2 (firewall), in which I have allowed http for any ipv4 and ssh for my ip only
+# 6. Then I created the security group for the ec2 (firewall), in which I have allowed http for any ipv4 and ssh for my ip only
 <img width="960" alt="9 sg" src="https://github.com/user-attachments/assets/6955a4e0-d8d7-4f1a-88fb-2a114a05b5c2" />
 
 
 <img width="960" alt="10" src="https://github.com/user-attachments/assets/d81ead5a-d549-436a-bc6e-1f1e0dace8c8" />
 
-# Now my ec2 instance is running!!
+# 7. Now my ec2 instance is running!!
 <img width="960" alt="11" src="https://github.com/user-attachments/assets/15ee0a07-afba-489b-bae5-44f8af8e8793" />
 
 <img width="960" alt="12" src="https://github.com/user-attachments/assets/dedf4814-5d4e-4c2b-9065-fc5591b58301" />
 
 <img width="960" alt="13" src="https://github.com/user-attachments/assets/eac69f8b-d4b6-402b-9ed4-fac6ac52114b" />
 
-# Cleanup processes
+# 8. Cleanup processes
 <img width="960" alt="14" src="https://github.com/user-attachments/assets/02554dcb-35a9-4bc6-b420-8e8ed5170adc" />
 <img width="960" alt="15" src="https://github.com/user-attachments/assets/67d85e32-bb74-4e4f-889f-922bc587a969" />
 
